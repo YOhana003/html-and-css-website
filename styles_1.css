@@ -63,7 +63,7 @@ ul {
     flex-direction: row;
     gap: 2rem;
     list-style: none;
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman'; 
 }
 
 .menu ul li a{
@@ -83,15 +83,6 @@ ul li ul.dropdown{
     background: bisque;
     display: none;
 }
-
-/* .drop ul li a{
-    font-size: 11px;
-    display: block;
-    gap: 1rem;
-    z-index: 99;
-    list-style: none;
-    position: absolute;
-} */
 
 ul li:hover ul.dropdown {
     display: block;
@@ -169,7 +160,7 @@ ul li:hover ul.dropdown {
     height: 400px;
     padding-top: 3rem;
     position: relative;
-    /* z-index: 3; */
+    
 }
 
 .content-text-box {
@@ -207,7 +198,6 @@ ul li:hover ul.dropdown {
     flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 1rem;
-    /* z-index: 1; */
 }
 
 .gallery-box .gallery-list {
