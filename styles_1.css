@@ -195,15 +195,42 @@ ul li:hover ul.dropdown {
 .gallery-box {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    flex-direction: row;
+    position: relative;
+    gap: 2rem;
 }
 
-.gallery-box .gallery-list {
+.unsplash_1 {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    position: relative;
+    height: 30vh;
+    float: center;
+    width: 50vh;
+    gap: 2rem;
+}
+
+.unsplash_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 30vh;
+    float: center;
+    width: 50vh;
+    gap: 2rem;
+}
+
+.unsplash_3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 30vh;
+    float: center;
+    width: 50vh;
+    gap: 2rem;
 }
 
 .wrapper{
